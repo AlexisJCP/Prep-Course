@@ -231,8 +231,10 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra.length > 1)
   return "Dato incorrecto"
-  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")
+  if(letra === "a" || letra === "A" || letra === "e" || letra === "E" || letra === "i" || letra === "I" || letra === "o" || letra === "O" || letra === "u" || letra === "U")
   return "Es vocal"
+  if (letra !== "a" || letra !== "A" || letra !== "e" || letra !== "E" || letra !== "i" || letra !== "I" || letra !== "o" || letra !== "O" || letra !== "u" || letra !== "U")
+  return "Dato incorrecto"
   
 }
 
